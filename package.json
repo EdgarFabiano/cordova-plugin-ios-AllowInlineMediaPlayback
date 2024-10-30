@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-template",
+  "name": "cordova-plugin-allowinlinemediaplayback",
   "version": "1.0.0",
   "cordova": {
-    "id": "cordova-plugin-template",
+    "id": "cordova-plugin-allowinlinemediaplayback",
     "platforms": [
       "android",
       "ios",

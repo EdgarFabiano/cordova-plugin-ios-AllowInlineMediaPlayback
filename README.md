@@ -1,4 +1,4 @@
-Cordova Plugin Template
+Cordova Plugin AllowInlineMediaPlayback
 ======
 
-This is a simple starting point for building a Cordova plugin on iOS and Android.
+This is a cordova plugin to enable the property AllowInlineMediaPlayback in ios
