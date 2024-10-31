@@ -7,5 +7,5 @@
       "ios"
     ]
   },
-  "description": "A starting point for a Cordova Plugin"
+  "description": "A cordova plugin to enable the property AllowInlineMediaPlayback in ios"
 }
