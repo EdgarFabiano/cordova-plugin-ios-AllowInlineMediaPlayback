@@ -10,9 +10,13 @@
     <repo>https://github.com/EdgarFabiano/cordova-plugin-ios-allowinlinemediaplayback</repo>
     <issue>https://github.com/EdgarFabiano/cordova-plugin-ios-allowinlinemediaplayback/issues</issue>
 
+    <variable name="ALLOWINLINEMEDIAPLAYBACK" value="true" />
+
     <!-- ios -->
     <platform name="ios">
-        <preference name="AllowInlineMediaPlayback" value="true"/>
+        <config-file target="config.xml" parent="/*">
+            <preference name="AllowInlineMediaPlayback" value="$ALLOWINLINEMEDIAPLAYBACK" />
+        </config-file>
     </platform>
 
 </plugin>
