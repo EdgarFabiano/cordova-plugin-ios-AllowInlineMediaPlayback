@@ -11,7 +11,18 @@
     <issue>https://github.com/EdgarFabiano/cordova-plugin-ios-allowinlinemediaplayback/issues</issue>
 
     <variable name="ALLOWINLINEMEDIAPLAYBACK" value="true" />
-
     <preference name="AllowInlineMediaPlayback" value="true" />
+
+    <!-- ios -->
+    <platform name="ios">
+        <source-file src="src/ios/InlineMediaPlugin.m" />
+        <preference name="AllowInlineMediaPlayback" value="true" />
+        <preference name="WKWebViewOnly" value="true" />
+
+        <config-file target="config.xml" parent="/*">
+            <preference name="AllowInlineMediaPlayback" value="true" />
+            <preference name="WKWebViewOnly" value="true" />
+        </config-file>
+    </platform>
 
 </plugin>
