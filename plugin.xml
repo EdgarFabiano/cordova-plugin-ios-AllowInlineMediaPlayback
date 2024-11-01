@@ -12,11 +12,6 @@
 
     <variable name="ALLOWINLINEMEDIAPLAYBACK" value="true" />
 
-    <!-- ios -->
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <preference name="AllowInlineMediaPlayback" value="$ALLOWINLINEMEDIAPLAYBACK" />
-        </config-file>
-    </platform>
+    <preference name="AllowInlineMediaPlayback" value="true" />
 
 </plugin>
