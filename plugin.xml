@@ -10,7 +10,6 @@
     <repo>https://github.com/EdgarFabiano/cordova-plugin-ios-allowinlinemediaplayback</repo>
     <issue>https://github.com/EdgarFabiano/cordova-plugin-ios-allowinlinemediaplayback/issues</issue>
 
-    <variable name="ALLOWINLINEMEDIAPLAYBACK" value="true" />
     <preference name="AllowInlineMediaPlayback" value="true" />
 
     <!-- ios -->
